@@ -1,0 +1,196 @@
+/* Custom CSS */
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/retrosupply-jLwVAUtLOAQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 85px;
+  }
+
+  .header-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-box{
+    max-width: 700px;
+    color: #e5eacd;
+  }
+
+  .content-box h1{
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  .content-box h4{
+    font-size: 30px;
+  }
+
+  .r-nav{
+    background: transparent;
+    background-color: #334948;
+    padding: 10px 0;
+    transition: .5s all;
+  }
+
+  .navbar-brand{
+    color: #e5eacd;
+    font-size: 30px;
+    font-weight: 700;
+    /* text-decoration: none; */
+  }
+  
+  /* Main Section */
+  main {
+    background-color: #e5eacd;
+    padding: 100px 0;
+  }
+  
+  .heading{
+    margin-left: 125px;
+    color: #334948;
+    font-weight: 900;
+    font-size: 40px;
+  }
+  
+  .container {
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-segment,.news-feeds,.upcoming-events,.jobs {
+    /* background-color: #f9f9f9; */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-segment ul,.news-feeds ul,.upcoming-events ul,.jobs ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .blog-segment ul li, .news-feeds ul li,.upcoming-events ul li,.jobs ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* .news-feeds,
+  .upcoming-events,
+  .jobs {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .news-feeds ul,
+  .upcoming-events ul,
+  .jobs ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  } */
+  
+  /* .news-feeds ul li,
+  .upcoming-events ul li,
+  .jobs ul li {
+    margin-bottom: 10px;
+  } */
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 15px;
+    }
+  }
+
+  
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-right: 50px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu li a {
+    color: #e5eacd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 20px;
+  }
+  
+  .menu li a:hover {
+    color: #fff;
+  }
+
+  .r-nav.stickyadd{
+    background-color: #334948 !important;
+    padding: 10px 0;
+    /* box-shadow: 0 1px 8px 3px rgba(0,0,0,.05); */
+    transition: .5s all ease-in-out;
+  }
+
+  .blogs{
+    height:400px;
+    width: 400px;
+    border: #334948;
+    border-radius: 15%;
+  }
+
+hr{
+  color:#334948 ;
+  height: 5px;
+  width: 100px;
+}
+
+.news{
+    height:400px;
+    width: 400px;
+    border: #334948;
+    border-radius: 15%;
+}
+
+.events{
+    height:400px;
+    width: 400px;
+    border: #334948;
+    border-radius: 15%;
+}
+
+.jobs{
+    height:400px;
+    width: 400px;
+    border: #334948;
+    border-radius: 15%;
+}
